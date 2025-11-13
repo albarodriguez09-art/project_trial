@@ -17,3 +17,19 @@ city.initialize()
 # plt.savefig('reports/graph1.png')
 # TODO proposed graph
 # plt.savefig('reports/graph2.png')
+
+# number of current iteration // LO IMPORTANTE ES EL PRINT, LO DEMÁS ES PARA COMPROBAR SI VA BIEN
+print('current iteration:', city.step)
+
+# exploring a place in the city
+my_place = city.places[25]
+my_place.place_id
+my_place.host_id
+my_place.neighbours
+my_place.area
+
+# exploring a host of the city
+my_host = city.hosts[25]
+my_host.profits
+my_host.area
+my_host.assets
